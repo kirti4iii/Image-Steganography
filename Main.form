@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Main">
+  <grid id="27dc6" binding="MainMenu" layout-manager="GridLayoutManager" row-count="8" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="965" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-14540254"/>
+      <foreground color="-15658735"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="fd1ce" class="javax.swing.JButton" binding="ENCODEButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="400" height="70"/>
+            <maximum-size width="400" height="70"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <focusable value="false"/>
+          <font name="Agency FB" size="40" style="1"/>
+          <foreground color="-16777216"/>
+          <iconTextGap value="5"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="20" bottom="0" right="20"/>
+          <rolloverEnabled value="true"/>
+          <text value="ENCODE"/>
+        </properties>
+      </component>
+      <component id="4b10c" class="javax.swing.JButton" binding="DECODEButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="400" height="70"/>
+            <maximum-size width="400" height="70"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <borderPainted value="true"/>
+          <enabled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="false"/>
+          <font name="Agency FB" size="40" style="1"/>
+          <foreground color="-16777216"/>
+          <iconTextGap value="5"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="20" bottom="0" right="20"/>
+          <opaque value="true"/>
+          <rolloverEnabled value="true"/>
+          <text value="DECODE"/>
+        </properties>
+      </component>
+      <hspacer id="f41f0">
+        <constraints>
+          <grid row="2" column="2" row-span="4" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="48b39">
+        <constraints>
+          <grid row="2" column="0" row-span="4" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="efc2f">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="f0a02" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <font name="Unispace" size="60" style="1"/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Image"/>
+        </properties>
+      </component>
+      <vspacer id="fbe10">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="28caf" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <vspacer id="1698f">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="78305" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <font name="Unispace" size="60" style="1"/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Steganographer"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
